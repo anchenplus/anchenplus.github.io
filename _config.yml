@@ -16,7 +16,7 @@ build_time: "2024-12-19T14:30:00Z"
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "我比你们高贵，我是来赚钱的"
-sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+# sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # SNS settings
 # RSS: false
