@@ -33,38 +33,42 @@ h1, h2, h3, h4, h5, h6,
 .intro-header .site-heading h1,
 .intro-header .page-heading h1 {
     font-family: 'Inter', 'Noto Sans SC', sans-serif !important;
-    font-weight: 800;
-    letter-spacing: -0.02em;
-    text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
-    font-size: 4.2rem !important;
+    font-weight: 900; /* 更粗的字体 */
+    letter-spacing: -0.01em;
+    text-shadow: 3px 3px 12px rgba(0,0,0,0.6); /* 更强的阴影 */
+    font-size: 5.5rem !important; /* 大幅增加字体大小 */
     line-height: 1.1;
-    margin-bottom: 2rem !important; /* 增加下边距 */
-    margin-top: 1rem !important; /* 增加上边距 */
-    /* 添加渐变色效果 */
-    background: linear-gradient(135deg, #ffffff 0%, #f0f0f0 100%);
+    margin-bottom: 3rem !important;
+    margin-top: 2rem !important;
+    /* 更炫酷的渐变色效果 */
+    background: linear-gradient(135deg, #ffffff 0%, #f8f8f8 50%, #e8e8e8 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    /* 备用纯色，以防浏览器不支持渐变 */
+    /* 备用纯色 */
     color: white;
+    /* 添加发光效果 */
+    filter: drop-shadow(0 0 20px rgba(255,255,255,0.3));
+    transform: scale(1.02); /* 轻微放大 */
 }
 
 @media (max-width: 768px) {
     .intro-header .site-heading h1,
     .intro-header .page-heading h1 {
-        font-size: 2.8rem !important;
-        letter-spacing: -0.01em;
+        font-size: 3.5rem !important; /* 手机端也增大 */
+        letter-spacing: -0.005em;
         margin-bottom: 1.5rem !important;
         margin-top: 0.5rem !important;
+        transform: scale(1.01); /* 手机端轻微缩放 */
     }
     
     .intro-header .site-heading .subheading,
     .intro-header .page-heading .subheading {
-        margin-top: 1.5rem !important;
-        margin-bottom: 1rem !important;
+        margin-top: 2rem !important;
+        margin-bottom: 1.5rem !important;
         font-size: 1rem !important;
-        max-width: 90%;
-        padding: 0 20px;
+        max-width: 95%;
+        padding: 0 15px;
     }
 }
 
@@ -75,16 +79,17 @@ h1, h2, h3, h4, h5, h6,
     font-family: 'Inter', 'Noto Sans SC', serif !important;
     font-weight: 300;
     font-style: italic;
-    letter-spacing: 0.02em;
-    margin-top: 2rem !important; /* 增加上边距 */
-    margin-bottom: 1.5rem !important; /* 增加下边距 */
-    line-height: 1.6;
-    font-size: 1.1rem !important;
+    letter-spacing: 0.01em;
+    margin-top: 2.5rem !important; /* 进一步增加上边距 */
+    margin-bottom: 2rem !important; /* 进一步增加下边距 */
+    line-height: 1.8;
+    font-size: 1.1rem !important; /* 恢复字体大小 */
     opacity: 0.9;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
-    max-width: 600px;
+    max-width: 900px; /* 增加最大宽度容纳完整文本 */
     margin-left: auto;
     margin-right: auto;
+    /* 移除换行控制，让br标签控制换行 */
 }
 
 /* 文章标题 */
