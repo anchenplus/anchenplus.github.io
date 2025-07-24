@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5, h6,
     .intro-header .page-heading .subheading {
         margin-top: 2rem !important;
         margin-bottom: 1.5rem !important;
-        font-size: 1rem !important;
+        font-size: 1.2rem !important;
         max-width: 95%;
         padding: 0 15px;
     }
@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5, h6,
     margin-top: 2.5rem !important; /* 进一步增加上边距 */
     margin-bottom: 2rem !important; /* 进一步增加下边距 */
     line-height: 1.8;
-    font-size: 1.1rem !important; /* 恢复字体大小 */
+    font-size: 1.4rem !important; /* 增大副标题字体 */
     opacity: 0.9;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
     max-width: 900px; /* 增加最大宽度容纳完整文本 */
