@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6,
     margin-bottom: 3rem !important;
     margin-top: 2rem !important;
     /* 简洁的白色效果，稍微透明 */
-    color: rgba(255, 255, 255, 0.9) !important;
+    color: rgba(255, 255, 255, 0.8) !important;
     /* 保持轻微放大效果 */
     transform: scale(1.02);
 }
