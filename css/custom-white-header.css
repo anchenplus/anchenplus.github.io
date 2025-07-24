@@ -1,0 +1,64 @@
+/* Custom CSS for white background header images */
+
+/* Override header text colors for white backgrounds */
+.intro-header .site-heading,
+.intro-header .post-heading,
+.intro-header .page-heading {
+    color: #333 !important; /* Dark text for white background */
+}
+
+/* Override subheading color */
+.intro-header .site-heading .subheading,
+.intro-header .page-heading .subheading,
+.intro-header .post-heading .subheading {
+    color: #666 !important; /* Slightly lighter dark text */
+}
+
+/* Override meta text color */
+.intro-header .post-heading .meta {
+    color: #777 !important;
+}
+
+.intro-header .post-heading .meta a {
+    color: #333 !important;
+}
+
+/* Override navbar colors for white background */
+.navbar-custom .navbar-brand {
+    color: #333 !important;
+    text-shadow: none;
+}
+
+.navbar-custom .navbar-brand:hover {
+    color: #0085a1 !important;
+}
+
+.navbar-custom .nav li a {
+    color: #333 !important;
+    text-shadow: none;
+}
+
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus {
+    color: #0085a1 !important;
+}
+
+/* Add text shadow for better readability if needed */
+.intro-header .site-heading h1,
+.intro-header .page-heading h1,
+.intro-header .post-heading h1 {
+    text-shadow: 1px 1px 2px rgba(255,255,255,0.8);
+}
+
+/* Override tag colors for white background */
+.tags a, .tags .tag {
+    border: 1px solid rgba(51,51,51,0.8) !important;
+    color: rgba(51,51,51,1) !important;
+}
+
+.tags a:hover, .tags .tag:hover,
+.tags a:active, .tags .tag:active {
+    color: #333 !important;
+    border-color: #333 !important;
+    background-color: rgba(51,51,51,0.1) !important;
+} 

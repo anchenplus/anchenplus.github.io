@@ -1,0 +1,91 @@
+/* 引入Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+/* 自定义字体样式 */
+body {
+    font-family: 'Inter', 'Noto Sans SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif !important;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+}
+
+/* 标题字体 */
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Inter', 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif !important;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+}
+
+/* 导航栏字体 */
+.navbar-custom .navbar-brand {
+    font-family: 'Inter', 'Noto Sans SC', sans-serif !important;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+}
+
+.navbar-custom .nav li a {
+    font-family: 'Inter', 'Noto Sans SC', sans-serif !important;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+}
+
+/* 首页大标题 */
+.intro-header .site-heading h1,
+.intro-header .page-heading h1 {
+    font-family: 'Inter', 'Noto Sans SC', sans-serif !important;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+}
+
+/* 副标题 */
+.intro-header .site-heading .subheading,
+.intro-header .page-heading .subheading,
+.intro-header .post-heading .subheading {
+    font-family: 'Inter', 'Noto Sans SC', sans-serif !important;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+}
+
+/* 文章标题 */
+.intro-header .post-heading h1 {
+    font-family: 'Inter', 'Noto Sans SC', sans-serif !important;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+}
+
+/* 文章列表标题 */
+.post-preview > a > .post-title {
+    font-family: 'Inter', 'Noto Sans SC', sans-serif !important;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+}
+
+/* 代码字体 */
+code, pre, .highlight {
+    font-family: 'JetBrains Mono', 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace !important;
+}
+
+/* 优化文本渲染 */
+body, h1, h2, h3, h4, h5, h6 {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+/* 段落间距优化 */
+p {
+    line-height: 1.7;
+    margin-bottom: 1.5em;
+}
+
+/* 链接样式优化 */
+a {
+    transition: color 0.2s ease;
+}
+
+/* 按钮字体 */
+.btn {
+    font-family: 'Inter', 'Noto Sans SC', sans-serif !important;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+} 
