@@ -40,16 +40,10 @@ h1, h2, h3, h4, h5, h6,
     line-height: 1.1;
     margin-bottom: 3rem !important;
     margin-top: 2rem !important;
-    /* 更炫酷的渐变色效果 */
-    background: linear-gradient(135deg, #ffffff 0%, #f8f8f8 50%, #e8e8e8 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    /* 备用纯色 */
-    color: white;
-    /* 添加发光效果 */
-    filter: drop-shadow(0 0 20px rgba(255,255,255,0.3));
-    transform: scale(1.02); /* 轻微放大 */
+    /* 简洁的白色效果，和副标题一致 */
+    color: white !important;
+    /* 保持轻微放大效果 */
+    transform: scale(1.02);
 }
 
 @media (max-width: 768px) {
