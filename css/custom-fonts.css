@@ -79,7 +79,11 @@ h1, h2, h3, h4, h5, h6,
     line-height: 1.8;
     font-size: 1.8rem !important; /* 进一步增大副标题字体 */
     opacity: 0.9;
-    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3), 
+                 -1px -1px 0 rgba(0,0,0,0.8),
+                 1px -1px 0 rgba(0,0,0,0.8),
+                 -1px 1px 0 rgba(0,0,0,0.8),
+                 1px 1px 0 rgba(0,0,0,0.8);
     max-width: 900px; /* 增加最大宽度容纳完整文本 */
     margin-left: auto;
     margin-right: auto;
