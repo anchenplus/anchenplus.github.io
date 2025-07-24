@@ -27,6 +27,9 @@ sidebar-about-description: "我比你们高贵，我是来赚钱的"
 # jianshu_username:   e71990ada2fd
 # twitter_username:   qiubaiying
 
+# 小红书链接
+xiaohongshu_url: "https://www.xiaohongshu.com/user/profile/66bc1c9b000000001d0206c8"
+
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 permalink: pretty

@@ -25,6 +25,17 @@
                                 </a>
                             </li>
                     {% endif %}
+                    <!-- add xiaohongshu 小红书链接 -->
+                    {% if site.xiaohongshu_url %}
+                            <li>
+                                <a target="_blank" href="{{ site.xiaohongshu_url }}">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa  fa-stack-1x fa-inverse" style="color: #fe2c55;">小</i>
+                                    </span>
+                                </a>
+                            </li>
+                    {% endif %}
                     {% if site.twitter_username %}
                     <li>
                         <a href="https://twitter.com/{{ site.twitter_username }}">
