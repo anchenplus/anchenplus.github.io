@@ -88,17 +88,15 @@ h1, h2, h3, h4, h5, h6,
     line-height: 1.9; /* 增加行高，更舒适 */
     font-size: 1.6rem !important; /* 稍微缩小，与主标题比例更协调 */
     opacity: 0.88; /* 稍微调整透明度 */
-    /* 优化阴影效果，更柔和 */
-    text-shadow: 1px 1px 4px rgba(0,0,0,0.4), 
-                 -0.3px -0.3px 0 rgba(0,0,0,0.5),
-                 0.3px -0.3px 0 rgba(0,0,0,0.5),
-                 -0.3px 0.3px 0 rgba(0,0,0,0.5),
-                 0.3px 0.3px 0 rgba(0,0,0,0.5);
+    /* 优化阴影效果 - 去掉描边，加强阴影清晰度 */
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.8), 
+                 1px 1px 12px rgba(0,0,0,0.6),
+                 0 0 20px rgba(0,0,0,0.4);
     max-width: 850px; /* 调整宽度 */
     margin-left: auto;
     margin-right: auto;
     /* 与主标题相同的暖白色调 */
-    color: rgba(255, 252, 248, 0.9) !important;
+    color: rgba(255, 252, 248, 0.92) !important;
 }
 
 /* 文章标题 */
